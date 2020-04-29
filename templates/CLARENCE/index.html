@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hassan - Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/resume.min.css' %}" rel="stylesheet">
+
+    <style>
+        @font-face {
+            font-family: JuneBug;
+            src: url('{% static 'DinPro.otf' %}');
+        }
+        
+        h2 {
+            font-family: JuneBug
+        }
+    </style>
+</head>
+
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Хассан Маллах</span>
+            <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'img/profile.jpg' %}" alt="">
+      </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#skills">Основной Стек</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">Обо Мне</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#experience">Опыт</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#education">образование</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#awards">сертификат</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+            <div class="w-100">
+                <h2 class="mb-5">основной стек</h2>
+                <div class="subheading mb-1">языки программирования и инструменты</div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item">
+                        <center>
+                            <h6>django</h6>
+                        </center>
+                        <i class="fab fa-python"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <center>
+                            <h6>database</h6>
+                        </center>
+                        <i class="fas fa-database"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <center>
+                            <h6>bootstrap</h6>
+                        </center>
+                        <i class="fab fa-bootstrap"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <center>
+                            <h6>HTML</h6>
+                        </center>
+                        <i class="fab fa-html5"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <center>
+                            <h6>css</h6>
+                        </center>
+                        <i class="fab fa-css3-alt"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <center>
+                            <h6>JavaScript</h6>
+                        </center>
+                        <i class="fab fa-js-square"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <center>
+                            <h6>github</h6>
+                        </center>
+                        <i class="fab fa-github"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <center>
+                            <h6>docker</h6>
+                        </center>
+                        <i class="fab fa-docker"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <center>
+                            <h6>docker</h6>
+                        </center>
+                        <i class="fab fa-ubuntu"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <center>
+                            <h6>coding</h6>
+                        </center>
+                        <i class="fas fa-code"></i>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <center>
+                            <h6>git</h6>
+                        </center>
+                        <i class="fab fa-git-square"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <center>
+                            <h6>windwos</h6>
+                        </center>
+                        <i class="fab fa-windows"></i>
+                    </li>
+                </ul>
+
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <i class="fa-li fa fa-check"></i> Развернуть проекты в Heroku.</li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i> Независимый, продуктивный, быстрообучаемый.</li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i> Участник проекта Toga (Открытый исходный код / open source).</li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i> Cоревнования по программированию LeetCode И HackerRank.</li>
+                    <li>
+                        <i class="fa-li fa fa-check"></i> Свободно говорю на английском и арабском.</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+            <div class="w-100">
+                <h1 class="mb-0">Хассан
+                    <span class="text-primary">Маллах</span>
+                </h1>
+                <div class="subheading mb-5">москва, строгино (977) 549-5060 ·
+                    <a href="mailto:name@email.com">hassansmallah@gmail.com</a>
+                </div>
+                <p class="lead mb-5">
+                    Я 3 года работал программистом. Специализация Django, SQL (Join, Subqueries, Common table expressions, Stored functions / procedures) / Python (Coding, Algorithms) / OOP. Основная рабочая ОС Ubuntu.</p>
+                <div class="social-icons">
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab">hh</i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+            <div class="w-100">
+                <h2 class="mb-5">ОПЫТ</h2>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Программист-разработчик</h3>
+                        <div class="subheading mb-3">github.com</div>
+                        <p>Разработка и поддержка web приложений написанных на Python с использованием Django, Mysql, PostgreSQL.
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Ноябрь 2018 — по настоящее время</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Программист-разработчик / Участник</h3>
+                        <div class="subheading mb-3">Toga</div>
+                        <p>Открытый исходный код Toga (open source) библиотека Python для создания GUI. Cоздавать интерфейсы, и Тестирование с Coverage и unittest. </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Январь 2020 — по настоящее время</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Account Manager / SMM-менеджер</h3>
+                        <div class="subheading mb-3">Fort Financial Services</div>
+                        <p>Перевод Арабский - Английский. Проверка и подтверждение клиентов. Редактура и вычитка статей. Веденеие социальных сетей компании (FB, Instagram).</p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">Май 2015 — ноябрь 2019</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+            <div class="w-100">
+                <h2 class="mb-5">Образование</h2>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h3 class="mb-0">European University</h3>
+                        <div class="subheading mb-3">Бакалавр в области делового администрирования</div>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">2008 - 2011</span>
+                    </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                    <div class="resume-content">
+                        <h3 class="mb-0">Damascus University </h3>
+                        <div class="subheading mb-3">Факультет информатики, Диплом </div>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">2001 - 2005</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+            <div class="w-100">
+                <h2 class="mb-5">СЕРТИФИКАТ</h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i> Advanced Databases and SQL Querying - Rakesh Gopalakrishnan</li>
+                    <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i> Machine Learning with Python - IBM</li>
+                    <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i> SQL : The Hitch Hikers Guide To Writing SQL Queries - Paul Scotchford</li>
+                    <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i> Python Core and Advanced - Bharath Thippireddy</li>
+                    <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i>Database Design - Caleb Curry</li>
+                    <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i>Learn Python: Build a Virtual Assistant - Adam Eubanks</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{% static 'js/resume.min.js' %}"></script>
+
+</body>
+
+</html>
